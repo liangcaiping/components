@@ -20,7 +20,7 @@ npm run build --report
 1.下载：npm install wangeditor
 2.使用组件wangEditor.vue,位置在src->components
 3.在需要使用富文本的页面引入组件wangEditor,并注册为组件
-https://github.com/liangcaiping/components/edit/master/图片1.png
+https://github.com/liangcaiping/components/blob/master/readmeImage/%E5%9B%BE%E7%89%871.png
 https://github.com/liangcaiping/components/edit/master/图片2.png
 将需要替换的地方改为editor组件
 https://github.com/liangcaiping/components/edit/master/图片3.png
