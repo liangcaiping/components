@@ -9,14 +9,11 @@ import ElementUI from 'element-ui'
 import '../node_modules/element-ui/lib/theme-chalk/index.css'
 //导入公共样式
 import '@/assets/css/common.css'
-import Mybread from './components/common/mybread.vue'
 
 
 Vue.use(ElementUI)
 Vue.config.productionTip = false
 
-//注册面包屑全局组件
-Vue.component(Mybread.name,Mybread);
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
