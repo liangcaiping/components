@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="../jquery/jquery-1.11.3.min.js"></script>
+  <script>
+      $(function () {
+       $('button').click(function () {
+         $('.text').slideDown('slow');
+       })
+      })
+  </script>
+  <style type="text/css">
+      button, .text{
+        width: 200px;
+        border:1px solid #ddd;
+        background-color: chartreuse;
+      }
+      .text {
+        display: none;
+      }
+  </style>
+</head>
+<body>
+<button>点击展开</button>
+<div class="text">
+  <h3>哈哈哈哈</h3>
+  <p>dkjhdjkhncksncjgdeuhncmnmhusduhjnbxzbchsdy</p>
+</div>
+
+
+</body>
+</html>
